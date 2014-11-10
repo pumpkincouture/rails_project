@@ -29,6 +29,12 @@ section,
 summary {
   display: block;
 }
+
+.notice p {
+  margin-top: 20px;
+  color:yellow;
+}
+
 audio,
 canvas,
 progress,
@@ -131,6 +137,7 @@ html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
+  margin:20px 0;
   cursor: pointer;
 }
 button[disabled],
@@ -1104,7 +1111,7 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px;
+  margin: 20px 0 10px;
 }
 .lead {
   margin-bottom: 20px;
